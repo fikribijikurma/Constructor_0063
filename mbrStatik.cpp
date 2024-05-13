@@ -21,7 +21,7 @@ public:
 int mahasiswa::nim = 20;
 
 void mahasiswa::setId()
-{
+{ 
     id  = nim++;
 }
 
