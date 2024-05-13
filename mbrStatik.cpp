@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class mahasiswa
@@ -37,4 +38,11 @@ int main()
     mahasiswa mhs2("Asroni");
     mahasiswa mhs3("Andi Kurniawan");
     mahasiswa mhs4("Joko purbo");
+
+    mhs1.printAll();
+
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
 }
