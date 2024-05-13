@@ -22,4 +22,20 @@ public:
     void cetak();
 };
 
+Mahasiswa::Mahasiswa(string iNama){
+    nama = iNama;
+}
+
+Mahasiswa::Mahasiswa(int iNim,string iNama)
+{
+    nim = iNim;
+    nama = iNama;
+};
+
+void Mahasiswa::cetak(){
+    cout << " Nim    = " << nim << endl;
+    cout << " Nama   = " << nama << endl; 
+    cout << endl;
+}
+
 
